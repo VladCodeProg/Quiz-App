@@ -6,7 +6,6 @@
 ###  'npm i'
 ###  'npm i axios sass react-router-dom react-transition-group'
 ### Also you need firebase realtime database with branch named 'quizes'
----
 ### And run 'npm start'
-
+---
 # Enjoy)
