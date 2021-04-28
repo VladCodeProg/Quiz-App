@@ -2,10 +2,10 @@
 
 ## How to use?
 
-## Clone respository
+Clone respository
 
-## Run 'npm i'
-## Wait....
-## And run 'npm start'
+Run 'npm i'
+Wait....
+And run 'npm start'
 
 # Enjoy)
