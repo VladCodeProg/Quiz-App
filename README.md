@@ -1,7 +1,11 @@
-# Quiz app created with [Create React App](https://github.com/facebook/create-react-app).
+# Quiz app created with React
 
 ## How to use?
 
+# Clone respository
 
+# Just run 'npm i'
+# Wait....
+# And run 'npm start'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Enjoy)
