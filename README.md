@@ -4,7 +4,7 @@
 
 ## Clone respository
 
-## Just run 'npm i'
+## Run 'npm i'
 ## Wait....
 ## And run 'npm start'
 
