@@ -1,0 +1,48 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -290px;
+    width: 290px;
+    background-color: #ebebeb;
+    padding-top: 30px;
+    transition: .5s ease-in-out;
+    z-index: 10;
+    &-opened {
+        left: 0;
+    }
+    &-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        &-item {
+            padding: 10px 0;
+            a {
+                display: block;
+                font-size: 34px;
+                font-weight: 500;
+                color: #2c2c2c;
+                text-decoration: none;
+                text-align: center;
+                transition: .35s all;
+                &:hover {
+                    color: #4b4b4b;
+                }
+            }
+        }
+    }
+}
+.menu-toggle {
+    position: absolute;
+    top: 24px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    &.fa-times {
+        left: 320px;
+    }
+    &.fa-bars {
+        left: 28px;
+    }
+}

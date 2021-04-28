@@ -1,0 +1,17 @@
+.quiz-finished-list-item {
+    span {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+    .fas {
+        font-size: 26px;
+        margin-left: 20px;
+        &.correct-result {
+            color: rgb(21, 255, 0);
+        }
+        &.wrong-result {
+            color: rgb(184, 0, 0);
+        }
+    }
+}

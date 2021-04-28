@@ -1,0 +1,26 @@
+.quiz-creator {
+    width: 100%;
+    min-height: 100%;
+    background: radial-gradient(circle, rgba(255,155,23,1) 0%, rgba(255,86,60,1) 100%);
+    box-sizing: border-box;
+    padding: 20px 0 25px 0;
+    .main-title {
+        color: #fff;
+        font-size: 32px;
+    }
+    &-wrapper {
+        width: 550px;
+        min-height: 300px;
+        border-radius: 25px;
+        box-shadow: 0 0 7   px #000;
+        background-color: #f0f0f0;
+        box-sizing: border-box;
+        padding: 25px 15px;
+    }
+    &-success {
+        text-align: center;
+        font-size: 22px;
+        margin: 0 0 7px 0;
+        color: #06ad00;
+    }
+}

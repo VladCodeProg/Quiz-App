@@ -1,0 +1,25 @@
+.backdrop {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.68);
+    opacity: 0;
+    transition: 500ms all;
+    &-enter {
+        opacity: 0;
+    }
+    &-active-enter {
+        opacity: 1;
+
+    }
+    &-done-enter {
+        opacity: 1;
+
+    }
+    &-active-exit {
+        opacity: 0;
+
+    }
+}

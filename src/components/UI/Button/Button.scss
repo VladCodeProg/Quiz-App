@@ -1,0 +1,37 @@
+.btn {
+    padding: 7px 9px;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin: 0 6px;
+    text-transform: uppercase;
+    transition: .35s all;
+    &-primary {
+        background-color: #007bff;
+        color: #fff;
+        &:hover {
+            background-color: #0059b9;
+        }
+    }
+    &-success {
+        background-color: #28a745;
+        color: #fff;
+        &:hover {
+            background-color: #217e37;
+        }
+    }
+    &-warning {
+        background-color: #ff6600;
+        color: #fff;
+        &:hover {
+            background-color: #b14700;
+        }
+    }
+    &:disabled {
+        background-color: rgb(156, 156, 156);
+        cursor: default;
+    }
+}

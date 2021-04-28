@@ -1,0 +1,28 @@
+.quiz-active-list-item {
+    width: 100%;
+    height: 57px;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    border-radius: 12px;
+    padding: 16px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .4s all;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.28);
+    }
+}
+.quiz-active-list-item:hover.correct {
+    background-color: rgba(0, 139, 7, 0.65);
+}
+.correct {
+    background-color: rgba(0, 139, 7, 0.65);
+}
+.quiz-active-list-item:hover.wrong {
+    background-color: rgba(175, 0, 0, 0.49);
+}
+.wrong {
+    background-color: rgba(175, 0, 0, 0.49);
+}
