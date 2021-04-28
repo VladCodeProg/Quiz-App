@@ -2,9 +2,11 @@
 
 ## How to use?
 
-Clone respository
+## Clone respository
 
-Run 'npm i'
+Run this commands:
+  'npm i'
+  'npm i axios sass react-router-dom react-transition-group'
 Wait....
 And run 'npm start'
 
