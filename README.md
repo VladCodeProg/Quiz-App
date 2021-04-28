@@ -2,10 +2,10 @@
 
 ## How to use?
 
- Clone respository
+## Clone respository
 
- Just run 'npm i'
- Wait....
- And run 'npm start'
+## Just run 'npm i'
+## Wait....
+## And run 'npm start'
 
-## Enjoy)
+# Enjoy)
