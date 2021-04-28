@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Quiz app created with [Create React App](https://github.com/facebook/create-react-app).
 
-Quiz app created with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## How to use?
 
 
 
