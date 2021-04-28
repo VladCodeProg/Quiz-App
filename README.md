@@ -1,5 +1,5 @@
 # Quiz app created with React
-----------------------------
+==================
 # How to use?
 ### Clone respository
 ### Run this commands:
