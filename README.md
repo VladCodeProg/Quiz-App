@@ -14,7 +14,7 @@
       2: id: ...  text: ... 
       3: id: ...  text: ... 
   ]
-  ---
+  <hr>
   id: 1
   ---
   question: "..."
