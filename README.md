@@ -16,9 +16,9 @@
   ]
   <hr>
   id: 1
-  ---
+  <hr>
   question: "..."
-  ---
+  <hr>
   rightAnswerId: 1
----
+<hr>
 # Enjoy)
