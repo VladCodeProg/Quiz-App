@@ -25,5 +25,5 @@
   question: "..."
   <br>
   rightAnswerId: 1
-<br>
+
 # Enjoy)
