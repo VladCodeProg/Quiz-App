@@ -7,12 +7,17 @@
 *  'npm i axios sass react-router-dom react-transition-group'
 4. Also you need firebase realtime database with branch named 'quizes'
 5. In quizes create quizItem by this example:
----
+<br>
   answers: [
+      <br>
       0: id: ...  text: ... 
+      <br>
       1: id: ...  text: ... 
+      <br>
       2: id: ...  text: ... 
+      <br>
       3: id: ...  text: ... 
+      <br>
   ]
   <br>
   id: 1
