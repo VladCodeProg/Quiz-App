@@ -14,11 +14,11 @@
       2: id: ...  text: ... 
       3: id: ...  text: ... 
   ]
-  <hr>
+  <br>
   id: 1
-  <hr>
+  <br>
   question: "..."
-  <hr>
+  <br>
   rightAnswerId: 1
-<hr>
+<br>
 # Enjoy)
