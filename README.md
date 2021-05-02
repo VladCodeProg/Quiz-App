@@ -16,13 +16,13 @@ Database scheme:
 quizes: {
   [Any key name]: {
     answers: {
-      0 => id: 1 text: [Any answer]
-      1 => id: 2 text: [Any answer]
-      2 => id: 3 text: [Any answer]
-      3 => id: 4 text: [Any answer]
+      0: id: 1 text: [Any answer]
+      1: id: 2 text: [Any answer]
+      2: id: 3 text: [Any answer]
+      3: id: 4 text: [Any answer]
     }
-    id => 1
-    question => [Any question]
-    rightAnswerId => 1
+    id: 1
+    question: [Any question]
+    rightAnswerId: 1
 }
 ```
