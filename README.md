@@ -13,15 +13,16 @@ In the `baseURL` field that is in the file `src/axios/axiosConfig.js`, paste the
 
 Database scheme: 
 ```
-quizes => {
-  [Any name] => answers => {
-                0 => id: 1 text: [Any answer]
-                1 => id: 2 text: [Any answer]
-                2 => id: 3 text: [Any answer]
-                3 => id: 4 text: [Any answer]
-              }
-              id => 1
-              question => [Any question]
-              rightAnswerId => 1
+quizes: {
+  [Any name]: {
+    answers: {
+      0 => id: 1 text: [Any answer]
+      1 => id: 2 text: [Any answer]
+      2 => id: 3 text: [Any answer]
+      3 => id: 4 text: [Any answer]
+    }
+    id => 1
+    question => [Any question]
+    rightAnswerId => 1
 }
 ```
