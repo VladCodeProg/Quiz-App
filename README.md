@@ -14,7 +14,7 @@ In the `baseURL` field that is in the file `src/axios/axiosConfig.js`, paste the
 Database scheme: 
 ```
 quizes: {
-  [Any name]: {
+  [Any key name]: {
     answers: {
       0 => id: 1 text: [Any answer]
       1 => id: 2 text: [Any answer]
