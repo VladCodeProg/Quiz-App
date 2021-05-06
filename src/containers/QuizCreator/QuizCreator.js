@@ -8,8 +8,8 @@ import axios from '../../axios/axiosConfig';
 
 function createOptionControl(id) {
     return createControl({
-        label: `Вариант ${id}`,
-        errorMessage: 'Значение не может быть пустым!',
+        label: `Option ${id}`,
+        errorMessage: 'The value cannot be empty!',
         id
     }, {required: true})
 }
@@ -17,8 +17,8 @@ function createOptionControl(id) {
 function createFormControls() {
     return {
         question: createControl({
-            label: 'Введите вопрос',
-            errorMessage: 'Вопрос не может быть пустым!'
+            label: 'Enter your question',
+            errorMessage: 'The question cannot be empty!'
         }, {required: true}),
         option1: createOptionControl(1),
         option2: createOptionControl(2),
@@ -132,15 +132,18 @@ class QuizCreator extends Component {
     render() {
         return (
             <div className="quiz-creator">
-                <h2 className="main-title">Создание тест</h2>
+                <h2 className="main-title">Quiz creation</h2>
                 <form className="quiz-creator-wrapper">
-                    { this.state.isQuizCreated
-                        && <h3 className="quiz-creator-success">Тест успешо создан!</h3> }
+                    { this.state.isQuizCreated && (
+                        <h3 className="quiz-creator-success">
+                            The quiz has been successfully created!
+                        </h3>
+                    ) }
 
                     { this.renderInputs() }
 
                     <Select
-                        label="Выберите правильный ответ"
+                        label="Choose the correct answer"
                         value={this.state.rightAnswerId}
                         onChange={this.selectChangeHandler}
                         options={[
@@ -156,14 +159,14 @@ class QuizCreator extends Component {
                         onClick={this.addQuestionHandler}
                         disabled={!this.state.isFormValid}
                     >
-                        Добавить вопрос
+                        Add a question
                     </Button>
 
                     <Button
                         onClick={this.createQuizHandler}
                         disabled={this.state.quiz.length === 0}
                     >
-                        Создать тест
+                        Create quiz
                     </Button>
                 </form>
             </div>

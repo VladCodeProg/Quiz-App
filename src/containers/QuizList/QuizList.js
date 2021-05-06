@@ -26,25 +26,31 @@ class QuizList extends Component {
     render() {
         return (
             <div className="quiz-list-page">
-                <h1 className="main-title">Список всех тестов</h1>
-                <ul className="quiz-list-ul">
-                { this.state.loading
-                    ? <Loader />
-                    : Object.keys(this.state.quizes).map((quizKey, index) => {
-                            return (
-                                <li
-                                    key={quizKey}
-                                    className="quiz-list-ul-item"
-                                >
-                                    <NavLink
-                                        to={`quiz/${quizKey}`}
+                <h1 className="main-title">List of all quizes</h1>
+                { this.state.quizes
+                ? (
+                    <ul className="quiz-list-ul">
+                    { this.state.loading
+                        ? <Loader />
+                        : Object.keys(this.state.quizes).map((quizKey, index) => {
+                                return (
+                                    <li
+                                        key={quizKey}
+                                        className="quiz-list-ul-item"
                                     >
-                                        Тест №{index + 1}
-                                    </NavLink>
-                                </li>
-                            )
-                        })  }
-                </ul>
+                                        <NavLink
+                                            to={`quiz/${quizKey}`}
+                                        >
+                                            Quiz №{index + 1}
+                                        </NavLink>
+                                    </li>
+                                )
+                            })  }
+                    </ul>
+                )
+                : (
+                    <h2>No quizes yet</h2>
+                ) }
             </div>
         )
     }

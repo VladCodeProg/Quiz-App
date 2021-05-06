@@ -41,7 +41,7 @@ const Input = props => {
             { isInvalid({valid, shouldValidate, touched,})
                 && (
                     <span className="input-error">
-                        { errorMessage || 'Введите правильное значение' }
+                        { errorMessage || 'Enter the correct value' }
                     </span>
                 ) }
         </div>

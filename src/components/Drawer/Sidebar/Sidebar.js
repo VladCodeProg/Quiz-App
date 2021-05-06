@@ -4,8 +4,8 @@ import Backdrop from '../Backdrop/Backdrop';
 import { NavLink } from 'react-router-dom';
 
 const links = [
-    { label: 'Список тестов', to: '/', id: 1 },
-    { label: 'Создать тест', to: '/quiz-creator', id: 2 }
+    { label: 'Quizes list', to: '/', id: 1 },
+    { label: 'Create quiz', to: '/quiz-creator', id: 2 }
 ];
 
 const Sidebar = props => {

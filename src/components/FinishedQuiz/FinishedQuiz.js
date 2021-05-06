@@ -6,7 +6,7 @@ import Button from '../UI/Button/Button';
 const FinishedQuiz = props => {
     return (
         <div className="quiz-finished-wrapper">
-            <h2 className="quiz-finished-title">Результаты теста</h2>
+            <h2 className="quiz-finished-title">Quiz results</h2>
             <FinishedList
                 quiz={props.quiz}
                 results={props.results}
@@ -15,11 +15,11 @@ const FinishedQuiz = props => {
                 <Button
                     type="success"
                     onClick={props.onRetry}
-                >Заново</Button>
+                >Try again</Button>
                 <Button
                     onClick={props.toHomePage}
                     type="warning"
-                >Главное меню</Button>
+                >Quizes list</Button>
             </div>
         </div>
     )

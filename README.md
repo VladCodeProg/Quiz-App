@@ -2,8 +2,7 @@
 
 ### How to initialize?
 
-Run `npm i` to install all dependencies <br>
-Also you need to run `npm i axios sass react-router-dom react-transition-group`
+Run `npm i axios sass react-router-dom react-transition-group` to install all dependencies 
 
 ### Axios
 

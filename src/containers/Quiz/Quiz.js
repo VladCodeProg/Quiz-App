@@ -91,7 +91,7 @@ class Quiz extends Component {
     render() {
         return (
             <div className="quiz">
-                <h1 className="main-title">Ответьте на все вопросы</h1>
+                <h1 className="main-title">Answer all questions</h1>
                 { this.state.loading 
                     ? <Loader />
                     : this.state.isFinished 
